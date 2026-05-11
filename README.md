@@ -36,14 +36,10 @@ QAOA-2026/
 │
 ├── Data/                        # Dataset files for Faculty Timetabling
 │   ├── QAOA_toy_16qbit.xlsx        # Problem instance (16 qubits)
-│   ├── QAOA_toy1_20qbit.xlsx        # Problem instance (20 qubits) ← used in paper
-│   ├── QAOA_toy1_24qbit.xlsx        # Problem instance (24 qubits)
-│   └── QAOA_toy1_28qbit.xlsx       # Problem instance (28 qubits)
-│   └── QAOA_toy1_31qbit.xlsx       # Problem instance (31 qubits)
-│   └── QAOA_easy_16qbit.xlsx       # Problem instance (16 qubits)
-│   └── QAOA_easy_22qbit.xlsx       # Problem instance (22 qubits)
-│   └── QAOA_easy_31qbit.xlsx       # Problem instance (31 qubits)
-│   └── QAOA_easy_32qbit.xlsx       # Problem instance (32 qubits)
+│   ├── QAOA_toy_20qbit.xlsx        # Problem instance (20 qubits) ← used in paper
+│   ├── QAOA_toy_24qbit.xlsx        # Problem instance (24 qubits)
+│   └── QAOA_toy_28qbit.xlsx       # Problem instance (28 qubits)
+│   └── QAOA_toy_32qbit.xlsx       # Problem instance (31 qubits)
 │
 ├── algorithm_runner.py          # Main script to run QAOA algorithm
 ├── visualizer.py                # Generates figures and plots for the paper
@@ -60,10 +56,10 @@ The `Data/` directory contains dataset files for the **Faculty Timetabling** pro
 | File | Qubits | Description |
 |------|--------|-------------|
 | `QAOA_toy_16qbit.xlsx` | 16 | Small-scale instance |
-| `QAOA_toy1_20qbit.xlsx` | 20 | **Used in this study** |
-| `QAOA_toy1_24qbit.xlsx` | 24 | Medium-scale instance |
-| `QAOA_toy1_28qbit.xlsx` | 28 | Medium-scale instance |
-| `QAOA_toy1_31qbit.xlsx` | 31 | Large-scale instance |
+| `QAOA_toy_20qbit.xlsx` | 20 | **Used in this study** |
+| `QAOA_toy_24qbit.xlsx` | 24 | Medium-scale instance |
+| `QAOA_toy_28qbit.xlsx` | 28 | Medium-scale instance |
+| `QAOA_toy_32qbit.xlsx` | 32 | Large-scale instance |
 
 > **Note:** The qubit count ranges from **16 to 32**. All experiments reported in the paper are conducted with **20 qubits**.
 
