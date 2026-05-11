@@ -35,10 +35,15 @@ This repository contains the implementation of QAOA applied to the Faculty Timet
 QAOA-2026/
 │
 ├── Data/                        # Dataset files for Faculty Timetabling
-│   ├── instance_16q.json        # Problem instance (16 qubits)
-│   ├── instance_20q.json        # Problem instance (20 qubits) ← used in paper
-│   ├── instance_24q.json        # Problem instance (24 qubits)
-│   └── instance_32q.json        # Problem instance (32 qubits)
+│   ├── QAOA_toy_16qbit.xlsx        # Problem instance (16 qubits)
+│   ├── QAOA_toy1_20qbit.xlsx        # Problem instance (20 qubits) ← used in paper
+│   ├── QAOA_toy1_24qbit.xlsx        # Problem instance (24 qubits)
+│   └── QAOA_toy1_28qbit.xlsx       # Problem instance (28 qubits)
+│   └── QAOA_toy1_31qbit.xlsx       # Problem instance (31 qubits)
+│   └── QAOA_easy_16qbit.xlsx       # Problem instance (16 qubits)
+│   └── QAOA_easy_22qbit.xlsx       # Problem instance (22 qubits)
+│   └── QAOA_easy_31qbit.xlsx       # Problem instance (31 qubits)
+│   └── QAOA_easy_32qbit.xlsx       # Problem instance (32 qubits)
 │
 ├── algorithm_runner.py          # Main script to run QAOA algorithm
 ├── visualizer.py                # Generates figures and plots for the paper
@@ -54,10 +59,11 @@ The `Data/` directory contains dataset files for the **Faculty Timetabling** pro
 
 | File | Qubits | Description |
 |------|--------|-------------|
-| `instance_16q.json` | 16 | Small-scale instance |
-| `instance_20q.json` | 20 | **Used in this study** |
-| `instance_24q.json` | 24 | Medium-scale instance |
-| `instance_32q.json` | 32 | Large-scale instance |
+| `QAOA_toy_16qbit.xlsx` | 16 | Small-scale instance |
+| `QAOA_toy1_20qbit.xlsx` | 20 | **Used in this study** |
+| `QAOA_toy1_24qbit.xlsx` | 24 | Medium-scale instance |
+| `QAOA_toy1_28qbit.xlsx` | 28 | Medium-scale instance |
+| `QAOA_toy1_31qbit.xlsx` | 31 | Large-scale instance |
 
 > **Note:** The qubit count ranges from **16 to 32**. All experiments reported in the paper are conducted with **20 qubits**.
 
@@ -109,11 +115,11 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @inproceedings{tran2026qaoa,
-  title     = {QAOA for Faculty Timetabling},
+  title     = {Solving Multi-Objective Faculty Timetabling Problem via QAOA},
   author    = {Tran, Ban Q. and others},
-  booktitle = {Proceedings of ICCSA 2026},
+  booktitle = {},
   year      = {2026},
-  publisher = {Springer Nature}
+  publisher = {To be determined}
 }
 ```
 
