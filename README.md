@@ -34,7 +34,7 @@ This repository contains the implementation of QAOA applied to the Faculty Timet
 ```
 QAOA-2026/
 │
-├── Data/                        # Dataset files for Faculty Timetabling
+├── dataset/                        # Dataset files for Faculty Timetabling
 │   ├── QAOA_toy_16qbit.xlsx        # Problem instance (16 qubits)
 │   ├── QAOA_toy_20qbit.xlsx        # Problem instance (20 qubits) ← used in paper
 │   ├── QAOA_toy_24qbit.xlsx        # Problem instance (24 qubits)
@@ -51,7 +51,7 @@ QAOA-2026/
 
 ## Data
 
-The `Data/` directory contains dataset files for the **Faculty Timetabling** problem.
+The `dataset/` directory contains dataset files for the **Faculty Timetabling** problem.
 
 | File | Qubits | Description |
 |------|--------|-------------|
@@ -113,7 +113,7 @@ If you use this code in your research, please cite:
 @inproceedings{tran2026qaoa,
   title     = {Solving Multi-Objective Faculty Timetabling Problem via QAOA},
   author    = {Tran, Ban Q. and others},
-  booktitle = {},
+  booktitle = {To be determined},
   year      = {2026},
   publisher = {To be determined}
 }
